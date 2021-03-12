@@ -1,0 +1,29 @@
+GIT COMMANDS
+
+
+Clonar un repositorio ya existente
+git clone https://github.com/codemcm/eventucdev.git
+
+Crear una rama
+git branch nombreRama
+Colocarse en la rama
+git checkout nombreRama
+
+Crear rama y colocarse en ella
+git  checkout -b nombreRama
+
+AGREGAR NUEVOS CAMBIOS
+Todos los archivos
+git add .
+Un archivo en especifico
+git add fileName
+
+Hacer commit
+
+git commit -m "titulo commit" 
+
+Subir CAMBIOS
+git push origin nombreRama
+
+Cambiar a otra rama
+git checkout ramaNombre
